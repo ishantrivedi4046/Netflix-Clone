@@ -16,3 +16,11 @@ export const API_REQUEST = {
   fetchRomanceMovies: `/discover/movie?api_key=${ENV_VAR.apiKey}&with_genres=10749`,
   fetchDocumentaries: `/discover/movie?api_key=${ENV_VAR.apiKey}&with_genres=99`
 };
+
+export const YOUTUBE_CONFIGURATIONS = {
+  height: '390',
+  width: '100%',
+  playerVars: {
+    autoplay: 1
+  }
+};

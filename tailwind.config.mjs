@@ -6,7 +6,8 @@ export default {
     extend: {
       colors: {
         black: {
-          DEFAULT: '#111'
+          DEFAULT: '#111',
+          button: '#565959'
         }
       }
     }
