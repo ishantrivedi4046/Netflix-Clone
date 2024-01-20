@@ -18,7 +18,7 @@ export const API_REQUEST = {
 };
 
 export const YOUTUBE_CONFIGURATIONS = {
-  height: '390',
+  height: '500',
   width: '100%',
   playerVars: {
     autoplay: 1
