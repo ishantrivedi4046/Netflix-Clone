@@ -27,16 +27,8 @@ const Header: React.FC = () => {
         { 'bg-black': show }
       )}
     >
-      <img
-        src="../../public/svgs/netflix-logo.wine.svg"
-        alt="logo"
-        className="w-32"
-      />
-      <img
-        src="../../public/svgs/netflix-seeklogo.svg"
-        alt="logo-seek"
-        className="h-8"
-      />
+      <img src="/svgs/netflix-logo.wine.svg" alt="logo" className="w-32" />
+      <img src="/svgs/netflix-seeklogo.svg" alt="logo-seek" className="h-8" />
     </div>
   );
 };
